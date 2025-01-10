@@ -1,268 +1,314 @@
-
 .open-sans-default {
-    font-family: "Open Sans", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
-  
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
 
-.main_container{
-    margin: 10px 150px;
-    background-color: #F5F5F5;
-
+.main_container {
+  margin: 10px 100px;
+  background-color: #f5f5f5;
 }
 
 /* Default Section */
-.color_primar{
-
-    color: #006A50;
+.color_primar {
+  color: #006a50;
 }
 
-.color_dec{
-    color:rgba(14, 14, 14, 0.5);
+.color_dec {
+  color: rgba(14, 14, 14, 0.5);
 }
 
-.title_default{
-    font-size: 40px;
-    font-weight: bold;
+.title_default {
+  font-size: 40px;
+  font-weight: bold;
 }
-.sub_title_default{
-    font-size: 20px;
-    font-weight: bold;
+.sub_title_default {
+  font-size: 20px;
+  font-weight: bold;
 }
-.dec_default{
-    font-size: 16px;
-    color: rgba(14, 14, 14, 0.7);
+.dec_default {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
 }
-
-
 
 /*  Nav section */
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-nav h1{
-    font-weight: bold;
-    font-size: 32px;
-    color: #0E0E0E;
+nav h1 {
+  font-weight: bold;
+  font-size: 32px;
+  color: #0e0e0e;
 }
-nav button{
-    padding: 15px 30px;
-    color: #006A50;
-    border: 1px solid #006A50;
-    background-color: white;
-    border-radius: 10px;
-    font-size: 18px;
-    font-weight: 600;
+nav button {
+  padding: 15px 30px;
+  color: #006a50;
+  border: 1px solid #006a50;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
 }
-nav button:hover{
-    background-color: #00c291;
-    color: white;
-    border: 1px solid #00c291;
+nav button:hover {
+  background-color: #00c291;
+  color: white;
+  border: 1px solid #00c291;
 }
 
 /*  Banner Section */
-body > section{
-    margin: 80px 0px;
-    
+body > section {
+  margin: 80px 0px;
 }
-.banner{
-    display: flex;
-    background-color: #c6e4d6;
-    padding: 80px 60px;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-    border-radius: 24px;
-    
+.banner {
+  display: flex;
+  background-color: #c6e4d6;
+  padding: 80px 60px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  border-radius: 24px;
 }
-.banner .banner_title{
-    font-size: 24px;
+.banner .banner_title {
+  font-size: 24px;
 }
-.banner .banner_dec{
-    font-size: 50px;
-    font-weight: bold;
-    margin: 16px 0px;
+.banner .banner_dec {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 16px 0px;
 }
-.banner button{
-    background-color: #006A50;
-    color: white;
-    border-radius: 8px;
-    padding: 17px 34px ;
-    border: none;
-    font-size: 18px;
-    font-weight: 600;
+.banner button {
+  background-color: #006a50;
+  color: white;
+  border-radius: 8px;
+  padding: 17px 34px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
 }
-.banner button:hover{
-    background-color: #00c291;
+.banner button:hover {
+  background-color: #00c291;
 }
-.banner img{
-    max-width: 420px;
+.banner img {
+  max-width: 420px;
 }
 
 /* Pillars of Bangladesh 2.0 section */
-.pillar .pillar_container{
-    display: flex;
-    gap: 24px;
-    justify-content: space-between;
+.pillar .pillar_container {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
 }
 
-.pillar .pillar_card{
-    background-color: white;
-    border-radius: 16px;
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    padding: 24px;
+.pillar .pillar_card {
+  background-color: white;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 24px;
 }
-.pillar .pillar_card:hover{
-    background-color: #FFF0DC;
-    border-radius: 16px;
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    padding: 24px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.5s ease, box-shadow 0.5s ease;
+.pillar .pillar_card:hover {
+  background-color: #fff0dc;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 24px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
-.pillar .pillar_card img{
-    width: 50px;
-    height: 50px;
+.pillar .pillar_card img {
+  width: 50px;
+  height: 50px;
 }
 
 /* The Vision of Future */
 
-.vision_dec{
-    font-size: 16px;
-    color: rgba(14, 14, 14, 0.7);
-    text-align: justify;
+.vision_dec {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  text-align: justify;
 }
-.vision_container{
-    display: flex;
-    gap: 24px;
-    justify-content: space-between;
+.vision_container {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
 }
-.vision_card1{
-    padding: 32px;
-    border-radius: 16px;
-    background-color: rgba(84, 144, 245, 0.2);
+.vision_card1 {
+  padding: 32px;
+  border-radius: 16px;
+  background-color: rgba(84, 144, 245, 0.2);
 }
-.vision_card1:hover{
-    background-color:#A5BFCC;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.5s ease, box-shadow 0.5s ease;
+.vision_card1:hover {
+  background-color: #a5bfcc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
-.vision_card2:hover{
-    background-color:#A5BFCC;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.5s ease, box-shadow 0.5s ease;
+.vision_card2:hover {
+  background-color: #a5bfcc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
-.vision_card3:hover{
-    background-color:#A5BFCC;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.5s ease, box-shadow 0.5s ease;
+.vision_card3:hover {
+  background-color: #a5bfcc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
-.vision_card1 button{
-    padding: 11px 20px;
-    border-radius: 8px;
-    background-color: #5490F5;
-    border: none;
-    color: white;
+.vision_card1 button {
+  padding: 11px 20px;
+  border-radius: 8px;
+  background-color: #5490f5;
+  border: none;
+  color: white;
 }
-.vision_card1 button:hover{
-    background-color: #1469fa;
+.vision_card1 button:hover {
+  background-color: #1469fa;
 }
-.vision_card2{
-    padding: 32px;
-    border-radius: 16px;
-    background-color: #C6E4D6;
+.vision_card2 {
+  padding: 32px;
+  border-radius: 16px;
+  background-color: #c6e4d6;
 }
-.vision_card2 button{
-    padding: 11px 20px;
-    border-radius: 8px;
-    background-color: #09A15C;
-    border: none;
-    color: white;
+.vision_card2 button {
+  padding: 11px 20px;
+  border-radius: 8px;
+  background-color: #09a15c;
+  border: none;
+  color: white;
 }
-.vision_card2 button:hover{
-    background-color:#0ad87c; ;
+.vision_card2 button:hover {
+  background-color: #0ad87c;
 }
-.vision_card3{
-    padding: 32px;
-    border-radius: 16px;
-    background-color: #F7EBCF;
+.vision_card3 {
+  padding: 32px;
+  border-radius: 16px;
+  background-color: #f7ebcf;
 }
-.vision_card3 button{
-    padding: 11px 20px;
-    border-radius: 8px;
-    background-color: #FFC239;
-    border: none;
-    color: white;
+.vision_card3 button {
+  padding: 11px 20px;
+  border-radius: 8px;
+  background-color: #ffc239;
+  border: none;
+  color: white;
 }
-.vision_card3 button:hover{
-    background-color: #f2ae0e;
-
-}
-
-.vision_container img{
-    width: 50px;
-    height: 50px;
+.vision_card3 button:hover {
+  background-color: #f2ae0e;
 }
 
-.quote{
-    background-color: white;
-    padding: 48px 24px;
-    margin:32px 0px ;
-    border-radius: 16px;
-    background-image: url(../assets/quote-bg.png);
-    background-repeat: no-repeat;
-    background-position: 25px 40px;
-}
-.quote:hover{
-    background-color: #FFF0DC;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.5s ease, box-shadow 0.5s ease;
+.vision_container img {
+  width: 50px;
+  height: 50px;
 }
 
-
+.quote {
+  background-color: white;
+  padding: 48px 24px;
+  margin: 32px 0px;
+  border-radius: 16px;
+  background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: 25px 40px;
+}
+.quote:hover {
+  background-color: #fff0dc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
 
 /* Recent News section */
-.news_card{
-    display: flex;
-    margin: 20px 0px;
-    justify-content: center;
-    align-items: center;
-    padding: 48px;
-    background-color: white;
-    border-radius: 24px;
-    gap: 32px;
+.news_card {
+  display: flex;
+  margin: 20px 0px;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+  background-color: white;
+  border-radius: 24px;
+  gap: 32px;
 }
-.news_card:hover{
-    background-color: #FFF0DC;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.5s ease, box-shadow 0.5s ease;
+.news_card:hover {
+  background-color: #fff0dc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
-.news_card h1{
-    font-size: 25px;
-    font-weight: bold;
-    color: #0E0E0E;
+.news_card h1 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #0e0e0e;
 }
-.news_card_img{
-    height: 300px;
-    width: 400px;
-    margin-top: 20px;
-    border-radius: 24px;
-    object-fit: cover;
+.news_card_img {
+  height: 300px;
+  width: 400px;
+  margin-top: 20px;
+  border-radius: 24px;
+  object-fit: cover;
 }
 
-.news_card button{ 
-    background-color: #006A50;
-    padding: 13px 26px;
-    border-radius: 8px;
-    color: white;
-    font-size: 18px;
-    border: none;
+.news_card button {
+  background-color: #006a50;
+  padding: 13px 26px;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  border: none;
 }
-.news_card button:hover{ 
-    background-color: #04d29f;
+.news_card button:hover {
+  background-color: #04d29f;
+}
+
+/* Donate Today */
+.donate {
+  text-align: center;
+  padding: 0px 100px;
+}
+.donate_container {
+  display: flex;
+  flex-direction: column;
+}
+.donate .taka {
+  display: flex;
+  justify-content: space-between;
+}
+
+.donate .taka h1 {
+  padding: 40px;
+  background-color: white;
+  border-radius: 16px;
+}
+#taka_dif_col {
+  background-color: #00c291;
+  color: white;
+}
+#taka_dif_col:hover {
+  color: black;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+.donate .taka h1:hover {
+    color: white;
+  background-color: #00c291;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+.donate button {
+  background-color: #006a50;
+  padding: 13px 26px;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  border: none;
+}
+.donate button:hover {
+  background-color: #04d29f;
+}
+
+.input_taka{
+    display: flex;
+    flex-direction: column;
+}
+.donate_input{
+    padding: 20px 40px;
+    text-align: center;
+    margin: 32px 0px;
+    border: none;
 }
