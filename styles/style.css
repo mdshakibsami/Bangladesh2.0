@@ -215,6 +215,57 @@ body > section {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
+/* Your Opinion Matters */
+.table_container{
+
+  background-color: white;
+  padding: 32px;
+  border-radius: 16px;
+  font-weight: bold;
+
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.table_header{
+  display: flex;
+  justify-content: space-between;
+}
+.first_table_row{
+  background-color: #C6E4D6;
+}
+.table_header h1{
+  font-size: 20px;
+  font-weight: 600;
+}
+.table_container td{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+table .btn_center{
+  padding: 10px 14px;
+  border-radius: 4px;
+  background-color: #C6E4D6;
+}
+table .btn_center:hover{
+  background-color: #06ed81;
+}
+table .select_center{
+  text-align: center;
+}
+
+.btn_center button{
+  padding: 12px 16px;
+}
+td,th{
+  border:  1px solid rgba(14, 14, 14, 0.15);
+  padding: 10px;
+}
+
+
+
 
 /* Recent News section */
 .news_card {
