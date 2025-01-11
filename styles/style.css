@@ -248,6 +248,7 @@ table .btn_center{
   padding: 10px 14px;
   border-radius: 4px;
   background-color: #C6E4D6;
+  font-weight: bold;
 }
 table .btn_center:hover{
   background-color: #06ed81;
