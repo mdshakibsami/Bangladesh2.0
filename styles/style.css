@@ -254,6 +254,7 @@ table .btn_center:hover{
 }
 table .select_center{
   text-align: center;
+  padding: 24px;
 }
 
 .btn_center button{
